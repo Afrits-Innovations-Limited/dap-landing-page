@@ -131,6 +131,9 @@ p {
 	height: auto;
 	object-fit: contain;
 }
+.dap-logo-2 {
+	height: 100px;
+}
 .dap-logo-footer {
 	width: 100px;
 	height: auto;
@@ -149,6 +152,7 @@ p {
 	-ms-user-select: none;
 	user-select: none;
 	border: 1px solid #ff6600;
+	/* border: 1px solid #9865FF; */
 	padding: 0 30px;
 	font-size: 15px;
 	line-height: 45px;
@@ -162,6 +166,7 @@ p {
 	-o-transition: all 0.4s ease-out 0s;
 	transition: all 0.4s ease-out 0s;
 	background-color: #ff6600;
+	/* background-color: #9865FF; */
 	position: relative;
 }
 
@@ -700,7 +705,7 @@ p {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #f4f9ff;
+	background: #fff0e7;
 }
 
 /*===========================
@@ -2884,7 +2889,7 @@ p {
 .appie-single-service.appie-single-services-3.item-2 {
 	background: linear-gradient(
 		0deg,
-		rgba(39, 153, 246, 0.08) 0%,
+		rgba(255, 117, 26, 0.08) 0%,
 		rgba(255, 255, 255, 0.08) 100%
 	);
 }
@@ -2917,7 +2922,7 @@ p {
 .appie-single-service.appie-single-services-3.item-4 {
 	background: linear-gradient(
 		0deg,
-		rgba(119, 89, 237, 0.08) 0%,
+		rgba(255, 117, 26, 0.08) 0%,
 		rgba(255, 255, 255, 0.08) 100%
 	);
 }
@@ -6089,7 +6094,7 @@ blockquote cite {
 	padding-bottom: 60px;
 }
 .appie-footer-area.appie-footer-3-area {
-	padding-top: 180px;
+	padding-top: 30px;
 }
 .appie-footer-area.appie-footer-3-area.appie-footer-5-area {
 	background: #fff;
@@ -7537,7 +7542,7 @@ blockquote cite {
 
 .appie-download-3-box {
 	border-radius: 20px;
-	background: #ebf2fc;
+	background: #ffd2b3;
 	overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -7613,7 +7618,7 @@ blockquote cite {
     15.APPIE FUN FACT css 
 ===========================*/
 .appie-fun-fact-box {
-	background-image: url(../images/fun-fact-bg.jpg);
+	background-image: url(../images/testimonial-bg.png);
 	padding: 90px 70px;
 	background-size: cover;
 	background-repeat: no-repeat;
