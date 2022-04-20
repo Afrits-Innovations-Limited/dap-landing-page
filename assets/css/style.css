@@ -43,6 +43,9 @@ img {
 	max-width: 100%;
 }
 
+.text-orange {
+	color: #ff6600;
+}
 a:focus,
 input:focus,
 textarea:focus,
@@ -103,7 +106,7 @@ ul,
 ol {
 	margin: 0px;
 	padding: 0px;
-	list-style-type: none;
+	/* list-style-type: none; */
 }
 
 p {
@@ -414,7 +417,7 @@ p {
 	color: #fff;
 }
 .back-to-top.back-to-top-2 a {
-	background: #ff3e66;
+	background: #ff6600;
 }
 .back-to-top.back-to-top-3 a {
 	background: #ff6b58;
@@ -1026,13 +1029,22 @@ p {
 	z-index: 999;
 }
 .appie-header-area.appie-header-2-area .appie-btn-box .main-btn {
-	background: #ff3e66;
+	background: #ff6600;
 	border-radius: 30px;
-	border-color: #ff3e66;
+	border-color: #ff6600;
+}
+.appie-header-area.appie-header-2-area .appie-btn-box .main-btn-2 {
+	background: #fff;
+	border-radius: 30px;
+	border-color: #ff6600;
 }
 .appie-header-area.appie-header-2-area .appie-btn-box .main-btn:hover {
 	background: transparent;
-	color: #ff3e66;
+	color: #ff6600;
+}
+.appie-header-area.appie-header-2-area .appie-btn-box .main-btn-2:hover {
+	background: #ff6600;
+	color: #fff;
 }
 .appie-header-area.appie-header-3-area.appie-sticky.sticky {
 	background: #0e1133;
@@ -1087,13 +1099,7 @@ p {
 .header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li > a {
 	color: #fff;
 }
-.header-nav-box.header-nav-box-3
-	.appie-header-main-menu
-	ul
-	> li
-	.sub-menu
-	li
-	a {
+.header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li .sub-menu li a {
 	color: #0e1133;
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .login-btn {
@@ -1111,28 +1117,18 @@ p {
 	color: #fff;
 	font-size: 20px;
 }
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page
-	.appie-btn-box
-	.main-btn {
+.header-nav-box.header-nav-box-3.header-nav-box-inner-page .appie-btn-box .main-btn {
 	border-color: #fff;
 	background: transparent;
 }
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page
-	.appie-btn-box
-	.main-btn:hover {
+.header-nav-box.header-nav-box-3.header-nav-box-inner-page .appie-btn-box .main-btn:hover {
 	background: #fff;
 	color: #ff6600;
 }
 .header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li > a {
 	color: #fff;
 }
-.header-nav-box.header-nav-box-5
-	.appie-header-main-menu
-	ul
-	> li
-	.sub-menu
-	li
-	a {
+.header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li .sub-menu li a {
 	color: #0e1133;
 }
 .header-nav-box.header-nav-box-5 .appie-btn-box .login-btn {
@@ -1238,22 +1234,10 @@ p {
 .header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a:hover {
 	color: #ff6600;
 }
-.header-nav-box.header-nav-box-7
-	.appie-header-main-menu
-	ul
-	> li
-	.sub-menu
-	li
-	a {
+.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li .sub-menu li a {
 	color: #505056;
 }
-.header-nav-box.header-nav-box-7
-	.appie-header-main-menu
-	ul
-	> li
-	.sub-menu
-	li
-	a:hover {
+.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li .sub-menu li a:hover {
 	color: #ff6600;
 }
 .header-nav-box.header-nav-box-7 .appie-btn-box .login-btn {
@@ -1619,8 +1603,7 @@ p {
 	color: #ff6600;
 }
 .appie-header-main-menu ul li .mega-menu-home li img {
-	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 	height: 280px;
 	transition: 0.5s ease-in-out;
 }
@@ -1920,27 +1903,17 @@ p {
 	background: transparent;
 	margin-right: 14px;
 }
-.appie-hero-area.appie-hero-3-area
-	.appie-hero-content
-	.hero-btns
-	.appie-video-popup {
+.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup {
 	color: #fff;
 	font-size: 15px;
 	font-weight: 500;
 }
 @media (max-width: 767px) {
-	.appie-hero-area.appie-hero-3-area
-		.appie-hero-content
-		.hero-btns
-		.appie-video-popup {
+	.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup {
 		margin-top: 20px;
 	}
 }
-.appie-hero-area.appie-hero-3-area
-	.appie-hero-content
-	.hero-btns
-	.appie-video-popup
-	i {
+.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup i {
 	height: 45px;
 	width: 45px;
 	text-align: center;
@@ -1992,68 +1965,46 @@ p {
 		padding-bottom: 0px;
 	}
 }
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-	.appie-hero-content
-	.thumb {
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .thumb {
 	margin-bottom: -110px;
 }
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-	.appie-hero-content
-	.appie-title {
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 80px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-		.appie-hero-content
-		.appie-title {
+	.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
 		font-size: 50px;
 		line-height: 60px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-		.appie-hero-content
-		.appie-title {
+	.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
 		font-size: 40px;
 		line-height: 50px;
 	}
 }
 @media (max-width: 767px) {
-	.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-		.appie-hero-content
-		.appie-title {
+	.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
 		font-size: 30px;
 		line-height: 40px;
 	}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-	.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-		.appie-hero-content
-		.appie-title {
+	.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
 		font-size: 36px;
 		line-height: 46px;
 	}
 }
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-	.appie-hero-content
-	.hero-btns
-	.appie-video-popup
-	i {
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .appie-video-popup i {
 	border-color: rgba(255, 255, 255, 0.2);
 }
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-	.appie-hero-content
-	.hero-btns
-	.main-btn {
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .main-btn {
 	border-color: rgba(255, 255, 255, 0.2);
 	color: #fff;
 }
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area
-	.appie-hero-content
-	.hero-btns
-	.main-btn:hover {
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .main-btn:hover {
 	background: #f84a6e;
 	color: #fff;
 }
@@ -2357,6 +2308,10 @@ p {
 		line-height: 46px;
 	}
 }
+
+.appie-hero-content-2 .appie-title span {
+	color: #ff6600;
+}
 .appie-hero-content.appie-hero-content-6 ul li a {
 	background: #9b2cfa;
 	border-color: #9b2cfa;
@@ -2415,10 +2370,7 @@ p {
 	color: #fff;
 	border-color: #54386a;
 }
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7
-	ul
-	li
-	a.item-2:hover {
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2:hover {
 	border-color: #fff;
 	background: #fff;
 	color: #0e1133;
@@ -2466,7 +2418,8 @@ p {
 .appie-hero-area-2 {
 	padding-top: 290px;
 	padding-bottom: 170px;
-	background: #eef1f6;
+	/* background: #eef1f6; */
+	background: rgba(255, 102, 0, 0.1);
 	position: relative;
 	overflow: hidden;
 	z-index: 10;
@@ -2562,7 +2515,7 @@ p {
 	font-size: 64px;
 	line-height: 70px;
 	font-weight: 400;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.appie-hero-content-2 .appie-title {
@@ -2620,8 +2573,7 @@ p {
 	border: 0;
 	border-left: 3px solid #ff3e66;
 	padding-left: 55px;
-	box-shadow: -3px 0px 0px 0px rgba(255, 62, 102, 0.004),
-		0px 30px 30px 0px rgba(14, 17, 51, 0.1);
+	box-shadow: -3px 0px 0px 0px rgba(255, 62, 102, 0.004), 0px 30px 30px 0px rgba(14, 17, 51, 0.1);
 }
 .appie-hero-content-2 .input-box button {
 	position: absolute;
@@ -2638,7 +2590,7 @@ p {
 	color: #ff3e66;
 }
 .appie-hero-content-2 .hero-users {
-	display: flex;
+	display: none;
 	align-items: center;
 	margin-top: 40px;
 }
@@ -2661,7 +2613,7 @@ p {
 
 .appie-page-title-area {
 	height: 450px;
-	background-image: url(../images/page-bg.jpg);
+	background: #ffefe5;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2682,30 +2634,22 @@ p {
 		height: 400px;
 	}
 }
-.appie-page-title-area.appie-page-service-title-area
-	.appie-page-title-item
-	.thumb {
+.appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
 	right: 110px;
 	width: auto;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.appie-page-title-area.appie-page-service-title-area
-		.appie-page-title-item
-		.thumb {
+	.appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
 		right: 0;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.appie-page-title-area.appie-page-service-title-area
-		.appie-page-title-item
-		.thumb {
+	.appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
 		display: none;
 	}
 }
 @media (max-width: 767px) {
-	.appie-page-title-area.appie-page-service-title-area
-		.appie-page-title-item
-		.thumb {
+	.appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
 		display: none;
 	}
 }
@@ -2737,7 +2681,7 @@ p {
 	padding-bottom: 14px;
 }
 .appie-page-title-item .title {
-	color: #fff;
+	color: #ff6600;
 	font-size: 44px;
 	font-weight: 700;
 }
@@ -2780,7 +2724,7 @@ p {
 	background-size: auto;
 }
 .appie-service-area.appie-service-3-area {
-	background: none;
+	background: linear-gradient(to right, #ffefe5, #fafaff96);
 }
 @media (max-width: 767px) {
 	.appie-service-area.appie-service-3-area {
@@ -2865,16 +2809,8 @@ p {
 }
 .appie-single-service.appie-single-services-3 .icon {
 	border-radius: 50%;
-	background-image: -moz-linear-gradient(
-		110deg,
-		#ff5f4a 0%,
-		#ff9e91 100%
-	);
-	background-image: -webkit-linear-gradient(
-		110deg,
-		#ff5f4a 0%,
-		#ff9e91 100%
-	);
+	background-image: -moz-linear-gradient(110deg, #ff5f4a 0%, #ff9e91 100%);
+	background-image: -webkit-linear-gradient(110deg, #ff5f4a 0%, #ff9e91 100%);
 	background-image: -ms-linear-gradient(110deg, #ff5f4a 0%, #ff9e91 100%);
 }
 .appie-single-service.appie-single-services-3 a {
@@ -2887,61 +2823,32 @@ p {
 	color: #ff6b58;
 }
 .appie-single-service.appie-single-services-3.item-2 {
-	background: linear-gradient(
-		0deg,
-		rgba(255, 117, 26, 0.08) 0%,
-		rgba(255, 255, 255, 0.08) 100%
-	);
+	background: linear-gradient(0deg, rgba(255, 117, 26, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
 }
 .appie-single-service.appie-single-services-3.item-2 .icon {
-	background-image: -moz-linear-gradient(
-		110deg,
-		#2799f6 0%,
-		#76c1ff 100%
-	);
-	background-image: -webkit-linear-gradient(
-		110deg,
-		#2799f6 0%,
-		#76c1ff 100%
-	);
+	background-image: -moz-linear-gradient(110deg, #2799f6 0%, #76c1ff 100%);
+	background-image: -webkit-linear-gradient(110deg, #2799f6 0%, #76c1ff 100%);
 	background-image: -ms-linear-gradient(110deg, #2799f6 0%, #76c1ff 100%);
 }
 .appie-single-service.appie-single-services-3.item-3 .icon {
-	background-image: -moz-linear-gradient(
-		110deg,
-		#f2335b 0%,
-		#ff718f 100%
-	);
-	background-image: -webkit-linear-gradient(
-		110deg,
-		#f2335b 0%,
-		#ff718f 100%
-	);
+	background-image: -moz-linear-gradient(110deg, #f2335b 0%, #ff718f 100%);
+	background-image: -webkit-linear-gradient(110deg, #f2335b 0%, #ff718f 100%);
 	background-image: -ms-linear-gradient(110deg, #f2335b 0%, #ff718f 100%);
 }
 .appie-single-service.appie-single-services-3.item-4 {
-	background: linear-gradient(
-		0deg,
-		rgba(255, 117, 26, 0.08) 0%,
-		rgba(255, 255, 255, 0.08) 100%
-	);
+	background: linear-gradient(0deg, rgba(255, 117, 26, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
 }
 .appie-single-service.appie-single-services-3.item-4 .icon {
-	background-image: -moz-linear-gradient(
-		110deg,
-		#7759ed 0%,
-		#ac97ff 100%
-	);
-	background-image: -webkit-linear-gradient(
-		110deg,
-		#7759ed 0%,
-		#ac97ff 100%
-	);
+	background-image: -moz-linear-gradient(110deg, #7759ed 0%, #ac97ff 100%);
+	background-image: -webkit-linear-gradient(110deg, #7759ed 0%, #ac97ff 100%);
 	background-image: -ms-linear-gradient(110deg, #7759ed 0%, #ac97ff 100%);
 }
 .appie-single-service.appie-single-services-3.appie-single-services-5 a:hover {
 	color: #801f82;
 }
+/* .appie-services-2-area.appie-services-8-area {
+	background: #fafaff;
+} */
 
 @media (max-width: 767px) {
 	.appie-services-2-area .appie-section-title {
@@ -2970,7 +2877,7 @@ p {
 	width: 50px;
 	text-align: center;
 	line-height: 50px;
-	background: #2eacfc;
+	background: #ff6600;
 	color: #fff;
 	border-radius: 50%;
 }
@@ -2990,22 +2897,21 @@ p {
 	color: #ff3e66;
 }
 .appie-single-service-2:hover {
-	box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004),
-		0px 40px 40px 0px rgba(14, 17, 51, 0.1);
-	border-top: 3px solid #2eacfc;
+	box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004), 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
+	border-top: 3px solid #ff6600;
 	transform: translateY(-10px);
 }
 .appie-single-service-2.item-2 .icon i {
-	background: #ea4c89;
+	background: #0099ee;
 }
 .appie-single-service-2.item-2:hover {
-	border-top-color: #ea4c89;
+	border-top-color: #0099ee;
 }
 .appie-single-service-2.item-3 .icon i {
-	background: #3578ff;
+	background: #ff6600;
 }
 .appie-single-service-2.item-3:hover {
-	border-top-color: #3578ff;
+	border-top-color: #ff6600;
 }
 .appie-single-service-2.item-4 .icon i {
 	background: #f67741;
@@ -3333,7 +3239,7 @@ p {
 }
 
 .appie-features-area-2 {
-	background: #0e1133;
+	background: #ff6600;
 	position: relative;
 	overflow: hidden;
 	z-index: 10;
@@ -3364,7 +3270,7 @@ p {
 }
 
 .appie-features-box-item {
-	border: 1px solid #202234;
+	/* border: 1px solid #0099ff; */
 	padding: 25px 30px 30px 70px;
 	border-radius: 6px;
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -4458,8 +4364,7 @@ p {
 }
 .pricing-one__single.pricing-one__single_2.active {
 	border-top: 3px solid #ff3e66;
-	box-shadow: 0px -3px 0px 0px rgba(255, 62, 102, 0.004),
-		0px 40px 40px 0px rgba(14, 17, 51, 0.1);
+	box-shadow: 0px -3px 0px 0px rgba(255, 62, 102, 0.004), 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
 }
 .pricing-one__single.pricing-one__single_2.active .pricig-body .pricing-btn a {
 	background: #ff3e66;
@@ -4550,18 +4455,8 @@ p {
 	border-radius: 0px;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		right top,
-		from(var(--thm-primary)),
-		to(var(--thm-base))
-	);
-	background-image: linear-gradient(
-		90deg,
-		var(--thm-primary) 0%,
-		var(--thm-base) 100%
-	);
+	background-image: -webkit-gradient(linear, left top, right top, from(var(--thm-primary)), to(var(--thm-base)));
+	background-image: linear-gradient(90deg, var(--thm-primary) 0%, var(--thm-base) 100%);
 	-webkit-transition: -webkit-transform 0.4s ease;
 	transition: -webkit-transform 0.4s ease;
 	border-radius: 5px;
@@ -4718,19 +4613,11 @@ p {
 	background: #eef1f6;
 	position: relative;
 }
-.appie-faq-8-area
-	.faq-accordion
-	.accrodion
-	.accrodion-inner
-	.accrodion-title::before {
+.appie-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::before {
 	background: #fcecef;
 	color: #db0f30;
 }
-.appie-faq-8-area
-	.faq-accordion
-	.accrodion
-	.accrodion-inner
-	.accrodion-title::after {
+.appie-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::after {
 	background: #db0f30;
 	color: #fff;
 }
@@ -6105,64 +5992,30 @@ blockquote cite {
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area {
 	background: #fff;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-about-widget
-	.social
-	ul
-	li
-	a {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-about-widget .social ul li a {
 	border: 2px solid #e6e7ea;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-about-widget
-	.social
-	ul
-	li
-	a:hover {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-about-widget .social ul li a:hover {
 	background: #db0f30;
 	border-color: #db0f30;
 	color: #fff;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-navigation
-	ul
-	li
-	a:hover {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-navigation ul li a:hover {
 	color: #db0f30;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-widget-info
-	ul
-	li
-	a
-	i {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-widget-info ul li a i {
 	color: #db0f30;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-copyright
-	.apps-download-btn
-	ul
-	li
-	a {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a {
 	background: #0e1133;
 	color: #fff;
 	border-color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-copyright
-	.apps-download-btn
-	ul
-	li
-	a:hover {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a:hover {
 	background: #fff;
 	color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
-	.footer-copyright
-	.apps-download-btn
-	ul
-	li
-	a.item-2 {
+.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a.item-2 {
 	background: #fff;
 	color: #0e1133;
 }
@@ -6420,11 +6273,7 @@ blockquote cite {
 .appie-signup-area.appie-signup-8-area {
 	background: #eef1f6;
 }
-.appie-signup-area.appie-signup-8-area
-	.appie-signup-box
-	form
-	.input-box
-	button {
+.appie-signup-area.appie-signup-8-area .appie-signup-box form .input-box button {
 	background: #db0f30;
 }
 
@@ -6751,16 +6600,8 @@ blockquote cite {
 }
 .appie-about-3-area .appie-traffic-service .icon {
 	position: static;
-	background-image: -moz-linear-gradient(
-		120deg,
-		#ff6600 0%,
-		#84bcfa 100%
-	);
-	background-image: -webkit-linear-gradient(
-		120deg,
-		#ff6600 0%,
-		#84bcfa 100%
-	);
+	background-image: -moz-linear-gradient(120deg, #ff6600 0%, #84bcfa 100%);
+	background-image: -webkit-linear-gradient(120deg, #ff6600 0%, #84bcfa 100%);
 	background-image: -ms-linear-gradient(120deg, #ff6600 0%, #84bcfa 100%);
 	display: inline-block;
 	height: 50px;
@@ -6772,42 +6613,18 @@ blockquote cite {
 	margin-bottom: 23px;
 }
 .appie-about-3-area .appie-traffic-service.item-2 .icon {
-	background-image: -moz-linear-gradient(
-		120deg,
-		#31c369 0%,
-		#a0eac2 100%
-	);
-	background-image: -webkit-linear-gradient(
-		120deg,
-		#31c369 0%,
-		#a0eac2 100%
-	);
+	background-image: -moz-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
+	background-image: -webkit-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
 	background-image: -ms-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
 }
 .appie-about-3-area .appie-traffic-service.item-3 .icon {
-	background-image: -moz-linear-gradient(
-		120deg,
-		#9b2cfa 0%,
-		#d8aaff 100%
-	);
-	background-image: -webkit-linear-gradient(
-		120deg,
-		#9b2cfa 0%,
-		#d8aaff 100%
-	);
+	background-image: -moz-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
+	background-image: -webkit-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
 	background-image: -ms-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
 }
 .appie-about-3-area .appie-traffic-service.item-4 .icon {
-	background-image: -moz-linear-gradient(
-		120deg,
-		#f8452d 0%,
-		#f7b8af 100%
-	);
-	background-image: -webkit-linear-gradient(
-		120deg,
-		#f8452d 0%,
-		#f7b8af 100%
-	);
+	background-image: -moz-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
+	background-image: -webkit-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
 	background-image: -ms-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
 }
 
@@ -7103,16 +6920,8 @@ blockquote cite {
 	position: relative;
 	background: #fff;
 	height: 160px;
-	background-image: -moz-linear-gradient(
-		140deg,
-		#ddf4fd 0%,
-		#eaf9ff 100%
-	);
-	background-image: -webkit-linear-gradient(
-		140deg,
-		#ddf4fd 0%,
-		#eaf9ff 100%
-	);
+	background-image: -moz-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
+	background-image: -webkit-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
 	background-image: -ms-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
 	border-radius: 10px;
 }
@@ -7152,48 +6961,24 @@ blockquote cite {
 	font-weight: 500;
 }
 .appie-single-counter.item-2 {
-	background-image: -moz-linear-gradient(
-		140deg,
-		#fdead3 0%,
-		#fff7ee 100%
-	);
-	background-image: -webkit-linear-gradient(
-		140deg,
-		#fdead3 0%,
-		#fff7ee 100%
-	);
+	background-image: -moz-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
+	background-image: -webkit-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
 	background-image: -ms-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
 }
 .appie-single-counter.item-2 .counter-content {
 	box-shadow: 0px 30px 40px 0px rgba(56, 31, 0, 0.1);
 }
 .appie-single-counter.item-3 {
-	background-image: -moz-linear-gradient(
-		140deg,
-		#dafedb 0%,
-		#f0fcf0 100%
-	);
-	background-image: -webkit-linear-gradient(
-		140deg,
-		#dafedb 0%,
-		#f0fcf0 100%
-	);
+	background-image: -moz-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
+	background-image: -webkit-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
 	background-image: -ms-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
 }
 .appie-single-counter.item-3 .counter-content {
 	box-shadow: 0px 30px 40px 0px rgba(0, 74, 1, 0.1);
 }
 .appie-single-counter.item-4 {
-	background-image: -moz-linear-gradient(
-		140deg,
-		#fedaf4 0%,
-		#fceff7 100%
-	);
-	background-image: -webkit-linear-gradient(
-		140deg,
-		#fedaf4 0%,
-		#fceff7 100%
-	);
+	background-image: -moz-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
+	background-image: -webkit-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
 	background-image: -ms-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
 }
 .appie-single-counter.item-4 .counter-content {
@@ -7203,6 +6988,12 @@ blockquote cite {
 /*===========================
     13.APPIE VIDEO PLAYER css 
 ===========================*/
+.appie-video-player-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .appie-video-player-slider .slick-arrow {
 	position: absolute;
 	right: 0;
@@ -7307,13 +7098,13 @@ blockquote cite {
 }
 .appie-video-player-item .content a {
 	border-radius: 30px;
-	border: 2px solid #e7eaef;
+	border: 2px solid #ff6600;
 	background: #fff;
-	color: #0e1133;
+	color: #ff6600;
 	margin-top: 33px;
 }
 .appie-video-player-item .content a:hover {
-	background: #ff3e66;
+	background: #ff6600;
 	border-color: #fff;
 	color: #fff;
 }
@@ -7360,6 +7151,9 @@ blockquote cite {
 	overflow: hidden;
 	position: relative;
 	z-index: 10;
+}
+.appie-download-3-area {
+	background: #fafaff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.appie-download-area {
@@ -7832,7 +7626,7 @@ blockquote cite {
 ===========================*/
 .contact-section {
 	position: relative;
-	background: #f7f6fa;
+	background: #fff;
 	padding: 120px 0;
 }
 
@@ -8620,7 +8414,7 @@ blockquote cite {
 }
 
 .shop-details-info-area {
-	background: #eef1f6;
+	background: #fff;
 }
 
 .shop-details-box .nav {
@@ -8693,12 +8487,20 @@ blockquote cite {
 }
 .review-rating-box .top-rating-result .rating-result-box .content ul {
 	margin: 0;
-	padding: 0;
-	list-style-type: none;
+	padding: 5px;
+	font-size: 14px;
+	list-style: square;
 }
+
+.review-rating-box .top-rating-result .rating-result-box .content ul li::marker {
+	color: #ff6600;
+}
+
 .review-rating-box .top-rating-result .rating-result-box .content ul li {
-	display: inline-block;
+	margin-top: 3px;
+	position: relative;
 }
+
 .review-rating-box .top-rating-result .rating-result-box .content ul li i {
 	font-size: 14px;
 	color: #ff9a2d;
@@ -8709,32 +8511,17 @@ blockquote cite {
 	padding-bottom: 8px;
 }
 @media (max-width: 767px) {
-	.review-rating-box
-		.top-rating-result
-		.rating-result-box
-		.content
-		.shop-meta {
+	.review-rating-box .top-rating-result .rating-result-box .content .shop-meta {
 		display: block;
 	}
 }
-.review-rating-box
-	.top-rating-result
-	.rating-result-box
-	.content
-	.shop-meta
-	.author-user-name
-	a {
+.review-rating-box .top-rating-result .rating-result-box .content .shop-meta .author-user-name a {
 	font-size: 14px;
 	font-weight: 700;
 	color: #0e1133;
 	margin-right: 15px;
 }
-.review-rating-box
-	.top-rating-result
-	.rating-result-box
-	.content
-	.shop-meta
-	.date {
+.review-rating-box .top-rating-result .rating-result-box .content .shop-meta .date {
 	font-size: 14px;
 	color: #63636a;
 }
